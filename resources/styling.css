@@ -9,7 +9,9 @@ header{
     max-height: 15%;
     display: flex;
     background-color: salmon;
-
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
 } 
 header img{
     width: 20%;
@@ -67,4 +69,21 @@ header img{
     .segments a{
         font-size: 25px;
     }
+}
+/* Our Reason */
+.ourReason{
+    margin-top: 80px;
+    height: 30rem;
+    display: flex;
+}
+.ourReason img{
+    height: inherit;
+    min-width: 350px;
+}
+.reasonText{
+    display: grid;
+    text-align: center;
+    width: 100%;
+    grid-template-rows: 2em 100%;
+    grid-template-columns: 100%;
 }
